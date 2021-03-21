@@ -2,7 +2,7 @@
     if ($_SERVER ["REQUEST_METHOD"] =="POST"){
         $username = $_POST["username"];
         $password= $_POST["password"];
-        if ($username=="shameem" && $password=="123"){
+        if ($username=="rajandasgupta" && $password=="101010"){
             setcookie("username","$username",time()+60);
             header("Location: dashboard.php");
         }
